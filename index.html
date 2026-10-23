@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#063b2b">
+  <title>ST Earn</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+  <main class="app">
+    <header class="top">
+      <div class="brand"><div class="logo">ST</div><div><h1>ST Earn</h1><p data-i18n="tagline">Tasks • Rewards • Bigger Future</p></div></div>
+      <button id="langBtn" class="lang" aria-label="Change language">বাংলা</button>
+    </header>
+    <section class="welcome">
+      <p class="eyebrow" data-i18n="welcome">WELCOME TO ST EARN</p>
+      <h2 data-i18n="headline">Complete tasks.<br>Collect rewards.</h2>
+      <p class="muted" data-i18n="subhead">Your task and reward dashboard starts here.</p>
+    </section>
+    <section class="balance card">
+      <div><p class="muted" data-i18n="balance">Demo points balance</p><strong>1,250 <span>pts</span></strong></div>
+      <div class="coin">★</div>
+      <small data-i18n="demo">Preview only — not real money</small>
+    </section>
+    <section class="section-title"><h3 data-i18n="tasks">Available tasks</h3><span class="pill" data-i18n="sample">SAMPLES</span></section>
+    <section class="tasks">
+      <article class="task card"><div class="task-icon green">✓</div><div class="task-info"><h4 data-i18n="task1">Visit a website</h4><p data-i18n="task1desc">Open the demo task details</p></div><button class="task-btn" data-task="1" data-i18n="view">View</button></article>
+      <article class="task card"><div class="task-icon blue">➤</div><div class="task-info"><h4 data-i18n="task2">Join a community</h4><p data-i18n="task2desc">Example task — verification not connected</p></div><button class="task-btn" data-task="2" data-i18n="view">View</button></article>
+      <article class="task card"><div class="task-icon orange">♧</div><div class="task-info"><h4 data-i18n="task3">Daily check-in</h4><p data-i18n="task3desc">Reward flow will be added later</p></div><button class="task-btn" data-task="3" data-i18n="view">View</button></article>
+    </section>
+    <section class="section-title"><h3 data-i18n="next">Next steps</h3></section>
+    <section class="note card"><strong data-i18n="secure">Secure setup needed</strong><p data-i18n="note">This is a visual demo. Real tasks, referrals, admin controls and withdrawals must be connected to a verified server and database before launch.</p></section>
+    <nav class="bottom"><div class="active">⌂<span data-i18n="home">Home</span></div><div>✓<span data-i18n="navtasks">Tasks</span></div><div>♧<span data-i18n="referrals">Referrals</span></div><div>◉<span data-i18n="profile">Profile</span></div></nav>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
